@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Freaky";
+    src: url('Freaky.otf');
+}
+@font-face {
+    font-family: "Ganley";
+    src: url('Ganley.otf');
+}
+@font-face {
+    font-family: "Gotham";
+    src: url('GothamBlack.otf');
+}
+@font-face {
+    font-family: "GAG";
+    src: url('GAG.ttf');
+}
+.Freaky{
+    font-family: Freaky;
+    font-size: 4em;
+    text-align: center;
+    margin: 20px;
+}
+.ganleyT{
+    font-family: Ganley;
+    font-size: 3em;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.img1{
+    width: 350px;
+    float: right;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.p1{
+    font-family: Gotham;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    position: relative;
+    top: 33px;
+    background-color: orange;
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+}
+.img2{
+    width: 350px;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.p2{
+    font-family: Gotham;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    position: relative;
+    top: 76px;
+    right: 15px;
+    background-color: orange;
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+}
+.second{
+    position: relative;
+    top: 100px;
+    left: 25px;
+}
+.img3{
+    width: 350px;
+    float: right;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.p3{
+    font-family: Gotham;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    position: relative;
+    top: 100px;
+    background-color: orange;
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+}
+.third{
+    position: relative;
+    top: 250px;
+}
+.titleTrain{
+    font-family: GAG;
+    font-size: 3em;
+    position: relative;
+    text-align: center;
+    left: 150px;
+}
+.train{
+    position: relative;
+    top: 500px;
+}
+table{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 150px;
+    font-size: 1.2em;
+}
+th{
+    padding: 20px;
+}
+.strategy{
+    position: relative;
+    top: 600px;
+}
+.titleStrategy{
+    font-family: GAG;
+    position: relative;
+    left: 500px;
+    font-size: 3em;
+}
+.p4{
+    font-family: Gotham;
+    font-size: 1.8em;
+    padding-left: 20px;
+}
+.p5{
+    font-family: Gotham;
+    padding-left: 20px;
+}
+.off{
+    position: relative;
+    right: 350px;
+    text-align: center;
+}
+.pre{
+    text-align: end;
+    position: relative;
+    bottom: 208px;
+    left: 250px;
+    text-align: center;
+}
+.redesSociais{
+    position: relative;
+    top: 500px;
+    font-family: GAG;
+    font-size: 3em;
+    text-align: center;
+    
+}
+.ig{
+    position: relative;
+    top: 500px;
+    width: 100px;
+    position: relative;
+    left: 800px;
+}
+.yt{
+    position: relative;
+    top: 400px;
+    width: 100px;
+    position: relative;
+    left: 950px;
+    
+}
+.item{
+    transition: .35s;
+    cursor: pointer;
+}
+.container:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
